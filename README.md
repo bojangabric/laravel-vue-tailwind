@@ -1,3 +1,5 @@
+## Laravel project template with Vue and TailwindCSS
+
 ### Installation
 
 Create new repository using this one as a template, clone the newly created repo and run these commands inside the folder:
