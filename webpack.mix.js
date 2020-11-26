@@ -18,7 +18,7 @@ mix
   .sass("resources/sass/app.scss", "public/css")
   .options({
     processCssUrls: false,
-    postCss: [tailwindcss("./tailwind.config.js")]
+    postCss: [tailwindcss("./tailwind.config.js")],
   })
   // .purgeCss({
   //   enabled: true,
@@ -27,5 +27,6 @@ mix
   //   extractorPattern: [/[a-zA-Z0-9-_:/]+/g]
   // })
   .browserSync({
-    proxy: "hotelbooking.local"
+    //hostname from /etc/hosts file
+    proxy: "hostname",
   });
