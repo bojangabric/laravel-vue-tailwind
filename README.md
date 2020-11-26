@@ -19,9 +19,9 @@ Add ip address and hostname to `/etc/hosts` file.
 
 Change line 31 in [webpack.mix.js](webpack.mix.js#L31) file to your chosen hostname.
 
-Create .env file by using `cp .env.example .env`.
+Create `.env` file by using `cp .env.example .env`.
 
-Create Homestead.yaml file with your credentials (change the values in curly braces):
+Create `Homestead.yaml` file with your credentials (change the values in curly braces):
 
 ```yaml
 ip: { ip address from /etc/hosts file }
